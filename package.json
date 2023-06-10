@@ -1,0 +1,16 @@
+{
+  "name": "glectron-asset-relocator",
+  "version": "1.0.0",
+  "description": "A HTML asset relocator",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/Glectron/glectron-asset-relocator.git",
+  "author": "YUCLing <luotianyi@luotianyi.me>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "glectron-asset-walker": "https://github.com/Glectron/glectron-asset-walker#0ec9894e3eae3a3439700ef4fd866663774b92d5",
+    "minimist": "^1.2.8",
+    "node-watch": "^0.7.3"
+  }
+}
