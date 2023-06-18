@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import walker from "glectron-asset-walker";
+import walker from "@glectron/asset-walker";
 
 import cssWalker from "./css.js";
 import { randomString } from "../util.js";

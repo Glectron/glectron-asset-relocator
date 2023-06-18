@@ -1,6 +1,6 @@
 import fs from "fs";
 
-import walk from "glectron-asset-walker";
+import walk from "@glectron/asset-walker";
 
 import htmlWalker from "./relocators/html.js";
 

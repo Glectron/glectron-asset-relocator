@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@glectron/asset-walker@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@glectron/asset-walker/-/asset-walker-1.0.0.tgz#a9095550dca6f70a6587300a31fc4091d7af68bb"
+  integrity sha512-5+arBfR6CHF9Tj2Km2SLBQlsnNqxakBkgrknx/ciTENLgX94MAOM78cx+Z7kylExtQQqgJDIh6J1T3xjMov8aA==
+  dependencies:
+    "@minify-html/node" "^0.11.1"
+    css "^3.0.0"
+    node-html-parser "^6.1.5"
+
 "@minify-html/node@^0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@minify-html/node/-/node-0.11.1.tgz#88c55d00814c525a33244c945dffa32c29cdc3eb"
@@ -88,14 +97,6 @@ entities@^4.2.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
-
-"glectron-asset-walker@https://github.com/Glectron/glectron-asset-walker#8fb9190f6fc6a67ba5f39d5447ac79220e356e02":
-  version "1.0.0"
-  resolved "https://github.com/Glectron/glectron-asset-walker#8fb9190f6fc6a67ba5f39d5447ac79220e356e02"
-  dependencies:
-    "@minify-html/node" "^0.11.1"
-    css "^3.0.0"
-    node-html-parser "^6.1.5"
 
 he@1.2.0:
   version "1.2.0"

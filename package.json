@@ -1,5 +1,5 @@
 {
-  "name": "glectron-asset-relocator",
+  "name": "@glectron/asset-relocator",
   "version": "1.0.0",
   "description": "A HTML asset relocator",
   "type": "module",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "glectron-asset-walker": "https://github.com/Glectron/glectron-asset-walker#8fb9190f6fc6a67ba5f39d5447ac79220e356e02",
+    "@glectron/asset-walker": "^1.0.0",
     "minimist": "^1.2.8",
     "node-watch": "^0.7.3"
   }
