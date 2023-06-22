@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@glectron/asset-walker": "^1.0.0",
+    "@glectron/asset-walker": "^1.0.1",
     "minimist": "^1.2.8",
     "node-watch": "^0.7.3"
   }

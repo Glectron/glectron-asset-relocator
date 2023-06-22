@@ -19,7 +19,7 @@ export default function(options) {
     return async function(walk) {
         walk("script[src]", "src", relocatorWalker(options.relocateDir));
         walk("link[href]", "href", async ({element, attribute, asset}) => {
-            element.set_content(await walker(asset, [["css", cssWalker(options)]]));
+            element.text_content = await walker(asset, [["css", cssWalker(options)]]);
             element.tagName = "style";
             element.removeAttribute("rel");
             element.removeAttribute(attribute);
