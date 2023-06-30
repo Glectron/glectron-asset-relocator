@@ -1,6 +1,6 @@
 {
   "name": "@glectron/asset-relocator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A HTML asset relocator",
   "type": "module",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@glectron/asset-walker": "^1.0.1",
+    "@glectron/asset-walker": "^2.0.0",
     "minimist": "^1.2.8",
     "node-watch": "^0.7.3"
   }
